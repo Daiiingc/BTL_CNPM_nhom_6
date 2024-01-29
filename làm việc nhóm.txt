@@ -1,0 +1,6 @@
+- Add các thành viên vào trong repos của github nhóm trưởng
+- Tạo 2 nhánh: nhánh main và nhánh dev
+- Nhánh main dùng để lưu trữ dự án đã được hoàn thành
+- Nhánh dev dùng để lưu trữ phần làm của các thành viên. Sau khi ghép code của các thành viên đã ổn và hoàn thành thì mới đẩy code lên nhánh main
+- Mỗi người một folder riêng hoặc đặt tên file phải khác nhau để người khác dễ phân biệt tránh bị xung đột tên file và code khi đẩy xuống
+- Phân công việc:
