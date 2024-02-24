@@ -1,5 +1,7 @@
 img {
-  border-radius: 50%;
+  width: 220px;
+  height: 250px;
+  border-radius: 30% 30%;
   overflow: hidden;
   border-style: solid;
   border-width: 2px;
@@ -10,25 +12,31 @@ img {
   grid-template-columns: 1fr 2fr;
   grid-gap: 1px;
 }
+
 hr {
   height: 2px;
-  background-color: #07B6D9; 
-  border: none; 
+  background-color: #07B6D9;
+  border: none;
 }
-.textXanh{
-  color: #07B6D9; 
+
+.textXanh {
+  color: #07B6D9;
 }
-.textT{
+
+.textT {
   font-family: "Times New Roman";
 }
-.icon{
-  font-size:18px;
-  color:#07B6D9;
+
+.icon {
+  font-size: 18px;
+  color: #07B6D9;
 }
+
 .contact-info .icon {
   cursor: pointer;
 }
-.box1{
+
+.box1 {
   margin: 10px 10px;
   background-color: #D9F4F9;
 }
