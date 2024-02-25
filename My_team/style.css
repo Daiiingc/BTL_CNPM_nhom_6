@@ -1,0 +1,17 @@
+.box1 ,.box2,.box3,.box4,.box5{
+  width: 280px;
+  height: 280px;
+  position: relative;
+  background: #2D2B55;
+}
+h2{
+  color:white;
+  text-align: center;
+  
+}
+button{
+  color:#C242FF;
+  width: 55px;
+  text-align: center;
+  font-size: 20px;
+}
