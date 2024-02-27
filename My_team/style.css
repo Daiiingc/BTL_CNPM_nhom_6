@@ -4,9 +4,10 @@
 .box4,
 .box5 {
   width: 280px;
-  height: 280px;
-  background: #2D2B55;
+  height: 340px;
+  background: #000000;
   position: absolute;
+  border-radius: 12px;
 }
 
 h2 {
@@ -29,12 +30,12 @@ h2 {
 
 .box4 {
   left: 240px;
-  top: 320px;
+  top: 360px;
 }
 
 .box5 {
   left: 760px;
-  top: 320px;
+  top: 360px;
 }
 
 button {
@@ -48,5 +49,18 @@ button {
 }
 
 html {
-  background-color: #96c5cf;
+  background-color: #e7e1cc;
+}
+
+.target {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
+legend {
+  color: white;
+  text-align: center;
+
 }
