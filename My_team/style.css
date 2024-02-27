@@ -7,6 +7,7 @@
   height: 340px;
   background: #000000;
   position: absolute;
+  border-radius: 12px;
 }
 
 h2 {
