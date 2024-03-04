@@ -11,6 +11,8 @@ img {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-gap: 1px;
+  background-color: #D9F4F9;
+
 }
 
 hr {
@@ -38,5 +40,6 @@ hr {
 
 .box1 {
   margin: 10px 10px;
-  background-color: #D9F4F9;
+  
+  
 }
