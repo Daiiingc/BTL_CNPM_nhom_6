@@ -19,8 +19,8 @@ h2{
    }
 
     img {
-    width: 220px;
-    height: 250px;
+    width: 70px;
+    height: 80px;
     border-radius: 50%;
     overflow: hidden;
     border-style: solid;
@@ -45,4 +45,20 @@ tr{
     font-family: 'Courier New', Courier, monospace;
     
 
+}
+
+.chamngon img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.bang{
+    font-size: 0.7cm;
+    font-family: ' Verdana ';
+}
+
+.bang2{
+    font-size: 0.6cm;
+    font-family: ' Verdana ';
 }
