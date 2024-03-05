@@ -1,0 +1,64 @@
+h1{
+    color: rgb(62, 24, 78);
+    border: 6px solid red;
+    background-color: lavender;
+    text-align: center;
+}   
+
+html{
+    
+    background: url(https://png.pngtree.com/thumb_back/fw800/background/20190222/ourmid/pngtree-cute-blue-hand-drawn-small-fish-advertising-background-backgroundblue-backgroundsmall-fishhand-image_60826.jpg) ;
+    background-size: 10cm;
+    font-size: 16;
+}
+  
+h2{
+      color: brown;
+      border: 6px solid red;
+      background-color: lavender;
+   }
+
+    img {
+    width: 70px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 2px;
+    }
+
+ul{
+    font-family: "Times New Roman";
+    font-size: 0.8cm;
+}
+
+tr{
+    font-size: 0.4cm;
+    font-weight: 400;
+    font-family: ' Verdana ';
+}
+
+.chamngon{
+    display: flex;
+    font-size: 0.7cm;
+    color:rgb(91, 17, 27);
+    font-family: 'Courier New', Courier, monospace;
+    
+
+}
+
+.chamngon img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.bang{
+    font-size: 0.7cm;
+    font-family: ' Verdana ';
+}
+
+.bang2{
+    font-size: 0.6cm;
+    font-family: ' Verdana ';
+}
