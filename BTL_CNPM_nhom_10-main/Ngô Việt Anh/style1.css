@@ -1,0 +1,45 @@
+img {
+  width: 220px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 1px;
+  background-color: #D9F4F9;
+
+}
+
+hr {
+  height: 2px;
+  background-color: #07B6D9;
+  border: none;
+}
+
+.textXanh {
+  color: #07B6D9;
+}
+
+.textT {
+  font-family: "Times New Roman";
+}
+
+.icon {
+  font-size: 18px;
+  color: #07B6D9;
+}
+
+.contact-info .icon {
+  cursor: pointer;
+}
+
+.box1 {
+  margin: 10px 10px;
+  
+  
+}
