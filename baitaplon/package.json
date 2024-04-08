@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "is-empty": "^1.2.0",
+    "validator": "^13.11.0"
+  }
+}
