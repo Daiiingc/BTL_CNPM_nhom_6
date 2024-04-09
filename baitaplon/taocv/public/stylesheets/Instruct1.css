@@ -1,0 +1,109 @@
+html, body{
+    margin:0 !important;
+    padding:0 !important;
+}
+
+ol {
+    list-style-type: none;
+    counter-reset: item;
+    margin: 5px;
+    padding: 0;
+}
+  
+ol > li {
+    display: table;
+    counter-increment: item;
+    margin-bottom: 0.6em;
+}
+  
+ol > li:before {
+    content: counters(item, ".") ". ";
+    display: table-cell;
+    padding-right: 0.6em;    
+}
+  
+li ol > li {
+    margin: 0;
+}
+  
+li ol > li:before {
+    content: counters(item, ".") " ";
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+h3{
+    margin: 10px 0px;
+}
+h4{
+    margin: 10px 0px;
+}
+
+.List {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+  
+.active, .List:hover {
+    background-color: #555;
+}
+  
+.List:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+}
+  
+.active:after {
+    content: "\2212";
+}
+  
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+    margin-bottom: 20px;
+}
+
+.box_content{
+    margin-left: 250px;
+    margin-top: 70px;
+    width: 62%;
+    background: #fff;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.box_create{
+    background-color: #6C63FF;
+    width: fit-content;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.relative{
+    margin-top: 70px;
+    margin-left: 250px;
+    margin-bottom: 70px;
+    width: 80%;
+    color: #fff;
+    font-size: 40px;
+}

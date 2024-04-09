@@ -3,33 +3,51 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Resume Page</title>
-        <meta name="description" content="">
+        <title><%=title %></title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- custom css -->
-        <link rel="stylesheet" href="/stylesheets/main1.css">
+        <link rel="stylesheet" href="/stylesheets/main_resume.css">
+        <link rel="stylesheet" href="/stylesheets/navbar.css">
+        <link rel="icon" href="/images/favicon.ico">
     </head>
     <body>
-        <nav class = "navbar bg-white">
-            <div class="container">
-                <div class = "navbar-content">
-                    <div class = "brand-and-toggler">
-                        <a href = "/" class = "navbar-brand">
-                            <img src = "/images/curriculum-vitae.png" alt = "" class = "navbar-brand-icon">
-                            <span class = "navbar-brand-text">build <span>resume.</span>
+        <nav class="navbar ta-top">
+            <div class="container-fluid px-30">
+                <div class="navbar-header">
+                    <h1 style="margin: 0">
+                        <a class="navbar-brand" href="/">
+                            <img src="/images/curriculum-vitae.png" class="navbar-brand-icon" alt="Xây dựng một CV hoàn hảo" title="Xây dựng một CV hoàn hảo" class = "navbar-brand-icon">
+                            <span class="navbar-brand-text">Build <span>CV.</span> 
                         </a>
-                        <button type = "button" class = "navbar-toggler-btn">
-                            <div class = "bars">
-                                <div class = "bar"></div>
-                                <div class = "bar"></div>
-                                <div class = "bar"></div>
-                            </div>
-                        </button>
-                    </div>
+                    </h1>
                 </div>
+                <ul class="nav navbar-nav navbar-left">
+                    <li class="navbar-left__item group">
+                        <a href="/resume" style="text-decoration: none">
+                            Tạo CV theo mẫu
+                        </a>
+                    </li>
+                    <li class="navbar-left__item group">
+                        <a href="/thu_vien_CV" style="text-decoration: none">
+                            Thư viện CV theo ngành nghề
+                        </a>
+                    </li>
+                    <li class="navbar-left__item group">
+                        <a href="/huong_dan1" style="text-decoration: none">
+                            Hướng dẫn viết CV theo ngành nghề
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="navbar-right__item">
+                        <a class="btn btn-outline-primary" href="/dangnhap" style="text-decoration: none">Đăng nhập</a>
+                    </li>
+                    <li class="navbar-right__item">
+                        <a class="btn btn-primary" href="/dangky" style="text-decoration: none">Đăng ký</a>
+                    </li>
+                </ul>
             </div>
         </nav>
-
         <section id = "about-sc" class = "">
             <div class = "container">
                 <div class = "about-cnt">
@@ -374,9 +392,6 @@
                 <button type = "button" class = "print-btn btn btn-primary" onclick="printCV()">Tạo CV</button>
             </div>
         </section>
-
-
-        
 
         <!-- jquery cdn -->
         <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>

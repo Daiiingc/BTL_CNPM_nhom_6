@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
     <link rel="stylesheet" href="/stylesheets/sign_up.css">
+    <link rel="icon" href="/images/favicon.ico">
 </head>
 <body>
     <div class="auth">
@@ -18,33 +19,33 @@
                     <div class="text-muted caption">Cùng xây dựng một hồ sơ nổi bật và nhận được các cơ hội sự nghiệp lý tưởng</div>
                 </div>
                 <div class="register">
-                    <form action="/dangky" method="post" id="form-register">
+                    <form action="/dangky" onsubmit="signup()" method="post" id="form-register" >
                         <input type="hidden" name="_token" value="CoGutiZoVTH2tjGvRF1pwIDAieBp3MtutXJXAw1A">           
                         <div class="form-group mb-3">
-                            <label for="fullname" class="mb-8" >Họ và tên</label>
+                            <label for="fullname" class="mb-8">Họ và tên</label>
                             <div class="input-group">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text"><i class="fa-solid fa-user"></i></span>
                                 </div>
-                                <input type="text" name="fullname" class="form-control" placeholder="Nhập họ tên" aria-label="Nhập họ tên" value="" require />
+                                <input type="text" name="fullname" class="form-control" placeholder="Nhập họ tên" aria-label="Nhập họ tên" required>
                             </div>
                         </div>
                         <div class="form-group mb-3">
-                            <label for="email" class="mb-8" >Email</label>
+                            <label for="email" class="mb-8">Email</label>
                             <div class="input-group ">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text"><i class="fa-solid fa-envelope"></i></span>
                                 </div>
-                                <input type="email" name="email" class="form-control" placeholder="Nhập email" aria-label="Nhập email" value="" require />
+                                <input type="email" name="email" class="form-control" placeholder="Nhập email" aria-label="Nhập email" required>
                             </div>
                         </div>
                         <div class="form-group mb-3">
-                            <label for="password" class="mb-8" >Mật khẩu</label>
+                            <label for="password" class="mb-8">Mật khẩu</label>
                             <div class="input-group">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text"><i class="fa-solid fa-key"></i></span>
                                 </div>
-                                <input type="password" id="password" name="password" class="form-control" placeholder="Nhập mật khẩu" aria-label="Nhập mật khẩu" require />
+                                <input type="password" id="password" name="password" class="form-control" placeholder="Nhập mật khẩu" aria-label="Nhập mật khẩu" required>
                             </div>
                             <ul class="rule-password">
                                 <li>Mật khẩu từ 6 đến 25 ký tự</li>
@@ -52,12 +53,12 @@
                             </ul>
                         </div>
                         <div class="form-group mb-3">
-                            <label for="password_confirmation" class="mb-8" require>Xác nhận mật khẩu</label>
+                            <label for="password_confirmation" class="mb-8">Xác nhận mật khẩu</label>
                             <div class="input-group ">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text"><i class="fa-solid fa-key"></i></span>
                                 </div>
-                                <input type="password" id="password_confirmation" name="password_confirmation" class="form-control" placeholder="Nhập lại mật khẩu" aria-label="Nhập lại mật khẩu" require />
+                                <input type="password" id="password_confirmation" name="password_confirmation" class="form-control" placeholder="Nhập lại mật khẩu" aria-label="Nhập lại mật khẩu" required>
                             </div>
                         </div>
                         <div class="form-group mt-3">
@@ -75,5 +76,6 @@
             </div>
         </div>
     </div>
+    <script src="/javascripts/signup.js"></script>
 </body>
 </html>
